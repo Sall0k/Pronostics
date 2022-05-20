@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: "Montserrat";
+  background-color: #CDFFFC;
+}
+
+/* Home Section */
+
+#home img {
+  width:  80%;
+  margin: auto;
+  display: block;
+}
+
+.password {
+  font-weight: 600;
+  font-style: italic;
+}
+
+.title {
+  padding: 5% 10%;
+}
+
+.title h1 {
+  font-weight: 900;
+}
+
+.title p {
+  margin: 7% 0;
+}
+
+.home-btn {
+  margin-top: 20px
+}
+
+/* Create Section */
+
+#create, #created-pronostics, #list-pronostics {
+  padding: 3% 7%;
+}
+
+.add-btn {
+  margin: 20px;
+}
+
+.create-heading {
+  margin-bottom: 3%
+}
+
+/* Navbar */
+.navbar {
+  margin: 0;
+  padding: 1rem 7% 2.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.card {
+  margin: 2% auto;
+}
+
+@media (max-width: 768px) {
+  #list-pronostics {
+    text-align: center;
+  }
+}
