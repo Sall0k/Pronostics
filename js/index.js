@@ -9,10 +9,10 @@ button.addEventListener('click', () => {
     let href = window.location.href;
     if (password) {
         if (password === 'MesPronos') {
-            window.location.replace(`${href}pronosics.html`)
+            window.location.replace(`${href}pronosics`)
         }
         if (sha256(password) === sha) {
-            window.location.replace(`${href}pronosics.html`)
+            window.location.replace(`${href}pronosics`)
         }
     }
     password_input.classList.add('is-invalid')
