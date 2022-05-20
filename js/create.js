@@ -15,7 +15,7 @@ let hippodromes
 let new_hippodromes = []
 let selected_hippodrome = ''
 
-fetch("../files/hippodrome.json")
+fetch("./files/hippodrome.json")
     .then(response => {
         if (response.ok) {
             return response
