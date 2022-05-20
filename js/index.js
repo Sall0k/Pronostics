@@ -8,10 +8,10 @@ button.addEventListener('click', () => {
     const password = password_input.value
     if (password) {
         if (password === 'MesPronos') {
-            window.location.href(`pronosics.html`)
+            window.location.replace(`pronostics.html`)
         }
         if (sha256(password) === sha) {
-            window.location.href(`pronosics.html`)
+            window.location.replace(`pronostics.html`)
         }
     }
     password_input.classList.add('is-invalid')
